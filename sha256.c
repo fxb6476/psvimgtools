@@ -152,3 +152,5 @@ void sha256_vector(size_t num_elem,  uint8_t *addr[],  size_t *len,
         sha256_update(&ctx, addr[i], len[i]);
     sha256_final(&ctx, mac);
 }
+
+void sha256_copy(){}//Where is this function defined!!!
